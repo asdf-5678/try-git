@@ -1,0 +1,47 @@
+/* Aapke image jaisa metallic look create karne ki koshish */
+body {
+    background-color: #0b0f19; /* Dark background */
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Metallic aur glass effect image se inspired */
+.main-header h1 {
+    font-size: 3rem;
+    background: linear-gradient(135deg, #a0a0ff 0%, #ffffff 50%, #a0a0ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    filter: drop-shadow(0 0 10px rgba(160, 160, 255, 0.7));
+}
+
+/* Red/Orange CTA button jaisa style */
+.cta-button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 40px;
+    background: linear-gradient(180deg, #ff6b6b, #ee5253);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(255, 107, 107, 0.6);
+}
